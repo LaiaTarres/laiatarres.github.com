@@ -16,7 +16,7 @@ Theme Name: Jason Stroff
 html {font-family: 'Inter', sans-serif;background-color:#FFF}
 body {font-family: 'Inter', sans-serif;overflow-x: hidden; background-color:#FFF; font-weight:400;font-style: normal; color:#373737; font-size:14px}
 a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
-a{color: #000}
+a{color: rgb(62, 61, 61)}
 iframe {border: 0;outline: none;}
 ::-moz-selection {background:#000;text-shadow: none;color:#FFF}
 ::selection {background:#000;text-shadow: none;color:#FFF}
@@ -67,6 +67,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#F26464; padding:17px 30px;  border: 2px solid #F26464;border-radius: 60px; }
 .ds-button:hover{ background-color:#F26464 ; color: #FFF; }
 .ds-arrow-button i{ display: inline-block; vertical-align: middle; }
+
 /*-----------------------------------------------------------------
   4. >>> Skills Style
 ----------------------------------------------------------------*/
@@ -87,8 +88,8 @@ span.ds-year{ color: #373737; font-size: 14px; font-weight: 700; padding-bottom:
 span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-bottom: 30px; }
 .ds-experience-list p{ font-size: 16px; line-height: 24px; font-weight: 300; }
 .ds-experience-list ul{ list-style: none; padding: 0; margin: 0; padding-top: 10px; }
-.ds-experience-list ul li{font-size: 16px; line-height: 24px; font-weight: 300; padding-left: 28px; position:relative; margin-bottom: 20px;}
-.ds-experience-list ul li:before{ content: ""; position: absolute; left: 0; top: 10px; border-radius: 100%; width: 8px; height: 8px; background-color: #373737; }
+.ds-experience-list ul li{font-size: 16px; line-height: 24px; font-weight: 300; padding-left: 28px; position:relative; margin-bottom: 10px;}
+.ds-experience-list ul li:before{ content: ""; position: absolute; left: 0; top: 5px; border-radius: 100%; width: 8px; height: 8px; background-color: #373737; }
 /*-----------------------------------------------------------------
   6. >>> Work Style
 ----------------------------------------------------------------*/
@@ -164,13 +165,16 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	/* Make sure all circles are at the same spot */
 	.left-2::after, 
 	.right-2::after{left: 18px;}
-	
 	.left-2::before {right: auto;}
-
 	/* Make all right containers behave like the left ones */
 	.right-2 {left: 0%;}
 }
 
+a.class1 {color:#933d3d;}
+a.class1:link  {text-decoration: none; color: #933d3d;}
+a.class1:visited {text-decoration: none; color: #933d3d;}
+a.class1:hover {text-decoration: underline; color: #933d3d;}
+a.class1:active {text-decoration: none; color: #933d3d;}
 /*-------------------------------------------------------------------------------
  Responsive XS Style @media (max-width: 767px) 
 -------------------------------------------------------------------------------*/
